@@ -1,5 +1,5 @@
 {% set name = "PyPDF3" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyPDF3-{{ version }}.tar.gz
-  sha256: 0c62a9478a77cfcb70e202a2e479a3d3db2fcac0f71e49f83649618113a61005
+  sha256: c946f3273419e37258e35e72273f49904ab15723d87a761c1115ef99799f8c5f
 
 build:
   number: 0
