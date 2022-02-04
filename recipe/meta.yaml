@@ -31,7 +31,7 @@ test:
     - PyPDF3
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys tests
+    - pytest -vvv --capture=tee-sys tests/tests.py
   requires:
     - pip
     - pytest
